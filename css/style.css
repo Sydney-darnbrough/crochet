@@ -1,7 +1,7 @@
 /* issues im having:
     1. .block uneven... maybe cuz inline table?
         - was grid w left float but dont like how it was left justified....
-    2. */
+    2. MAKE LINK ON COOL THINGS A BUTTON*/
 
 h1 {
     font-size: 2.5rem;
@@ -19,6 +19,10 @@ body {
     background: #a4cccd;
 }
 
+p {
+    text-align: left;
+}
+
 a {
     color: black;
     text-decoration: none;
@@ -27,6 +31,8 @@ a {
 .content {
     text-align: center;
 }
+
+
 
 .block {
     display: grid;
@@ -41,11 +47,23 @@ a {
     background: white;
 }
 
+.block p{
+    text-align: center;
+}
+
 nav{
     background-color: #f9f9f9;
     padding: 20px;
     border-radius: 12px;
     display: inline-block;
+}
+
+ol {
+    text-align: left;
+}
+
+li {
+    padding: 10px;
 }
 
 .block-img {
@@ -164,4 +182,11 @@ img{
         width: 560px;
         height: 315px;
     }
+}
+
+footer {
+    background-color: #f9f9f9;
+    padding: 10px;
+    border-radius: 12px;
+    margin: 20px;
 }
