@@ -2,9 +2,32 @@
     1. .block uneven... maybe cuz inline table?
         - was grid w left float but dont like how it was left justified....
     2. MAKE LINK ON COOL THINGS A BUTTON*/
-
+    .caprasimo-regular {
+        font-family: "Caprasimo", serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+      
+    
 h1 {
     font-size: 2.5rem;
+    font-family: "caprasimo";
+    color: #1c3838;
+}
+
+h2 {
+    font-family: "caprasimo";
+    color: #1c3838; 
+}
+
+h3 {
+    font-family: "caprasimo";
+    color: #1c3838;
+}
+
+h4 {
+    color:#1c3838;
+    font-family: "caprasimo";
 }
 
 h5{
@@ -21,18 +44,32 @@ body {
 
 p {
     text-align: left;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-indent: 5%;
+}
+
+b {
+    font-family: "caprasimo";
+    color: #1c3838;
 }
 
 a {
-    color: black;
+    color: #1c3838;
     text-decoration: none;
+    font-family: "caprasimo";
 }
 
 .content {
     text-align: center;
 }
 
-
+.caprasimo-regular {
+    font-family: "Caprasimo", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
 
 .block {
     display: grid;
@@ -44,7 +81,7 @@ a {
     float: left;
     border-radius: 12px;
     justify-content: center;
-    background: white;
+    background: #f9f9f9;
 }
 
 .block p{
@@ -56,10 +93,14 @@ nav{
     padding: 20px;
     border-radius: 12px;
     display: inline-block;
+    font-family: "caprasimo";
+    color: #1c3838;
 }
 
 ol {
     text-align: left;
+    margin-left: 15%;
+    margin-right: 15%;
 }
 
 li {
@@ -89,12 +130,13 @@ footer {
     display: inline-block;
     font-size: 16px;
     margin: 4px 2px;
-    font-family: 'Raleway', sans-serif;
+    font-family: "caprasimo";
     float: none;
     justify-content: center;
     border-radius: 12px;
-    color: #262626;
+    color: #1c3838;
     background-color: #5F9D9E;
+
 }
 
 .external {
@@ -102,7 +144,7 @@ footer {
 }
 
 .button:hover {
-    background-color: #f9f9f9;
+    background-color: #d1d1d1;
     transition: 0.5s ease;
 }
 
