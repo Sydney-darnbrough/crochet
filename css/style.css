@@ -173,6 +173,12 @@ img{
 }
 /* these are break points, they change with the viewport :) */
 
+.shop p{
+    text-align: center;
+    font-family: "Caprasimo", serif;
+    color:#417d7d;
+    font-size: 16px;
+} 
 
 @media (max-width: 600px){
     h1{
@@ -232,3 +238,4 @@ footer {
     border-radius: 12px;
     margin: 20px;
 }
+
