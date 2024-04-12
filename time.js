@@ -66,7 +66,7 @@ function yarnguy(){
 
 function knitom(){
     if (currentDay >=0 && currentHour >= 12 && currentHour <= 18){
-        knito = 'knti-o-matic is open'
+        knito = 'Knti-o-matic is open'
     }else { 
         knito = 'Store is closed'
     }
